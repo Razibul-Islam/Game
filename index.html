@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Your favourite Games</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70f2c5474e.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        menuColor: '#ebebf5',
+                        btnBg: '#2f2f2f',
+                        btnBg2: '#2f2f2f',
+                        topBtnColor: '#0061FD',
+                        'normal-black': '#00000077',
+                        discount: '#B1DD8B',
+                        txtColor: '#38571A',
+                        discountLine: '#ebebf599'
+                    },
+                    fontFamily: {
+                        'mont': ['Mont', 'sans-sarif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-black">
+    <main class=flex relative font-mont">
+        <aside class="py-16 px-3 fixed inline-block w-1/6 h-screen border-r border-btnBg">
+            <div class="flex flex-col h-full">
+                <img src="images/logo.png" class="flex items-start cursor-pointer mb-14" alt="">
+                <ul>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-home pr-3"></i>Home</a></li>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer bg-btnBg rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-fire pr-3"></i>store</a></li>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-th-large pr-3"></i>Library</a></li>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-users pr-3"></i>Friends</a></li>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-satellite-dish pr-3"></i>Live</a></li>
+                </ul>
+                <ul class="mt-auto">
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-download pr-3"></i>Download</a></li>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><i class="fas fa-cog pr-3"></i>Settings</a></li>
+                    <li class="btn my-2 py-3 pl-9 pr-3 cursor-pointer rounded-xl"><a href="#"
+                            class="btn-a text-menuColor"><img src="images/profile.png" class="inline pr-3" alt="">
+                            Profile</a></li>
+                </ul>
+            </div>
+        </aside>
+        <aside class="inline-block ml-72 float- w-5/6 pl-6 pr-12">
+            <div class="flex pt-16 max-h-screen text-menuColor">
+                <ul class="flex">
+                    <li class="pr-3"><a href="#" class="p-2 btn-container bg-topBtnColor rounded-3xl">Discover</a></li>
+                    <li class="pr-3"><a href="#" class="p-2 btn-container rounded-3xl">Browse</a></li>
+                    <li class="pr-3"><a href="#" class="p-2 btn-container rounded-3xl">Wishlist</a></li>
+                </ul>
+                <div class="ml-auto">
+                    <i class="fas fa-bell cursor-pointer"></i>
+                    <span class="ml-8 bg-btnBg2 p-2 rounded-3xl">
+                        <i class="fas fa-search p-2"></i>
+                        <input type="search" class="bg-transparent focus:outline-none" placeholder="Search">
+                    </span>
+                </div>
+            </div>
+            <div class="mt-8 flex">
+                <div
+                    class="w-4/5 text-menuColor bg-[url('./images/banner-img.png')] bg-no-repeat bg-cover rounded-l-xl">
+
+                    <h3 class="text-2xl pt-5 pl-7 font-mono">Fortnite</h3>
+                    <div class="mt-52 bg-gradient-to-t from-normal-black to-transparent">
+                        <div class="pt-5 pl-7">
+                            <p class="">Update</p>
+                            <h2 class="text-3xl font-bold font-mono">The hunt is on in Fortnite Chapter 2 - <br>
+                                Season 5: Zero Point.</h2>
+                            <button class="mt-7 mb-8 p-5 bg-blue-700 rounded-md text-center">Play for free <i
+                                    class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/5 ml-1">
+                    <div class="text-menuColor bg-btnBg2 rounded-r-xl">
+                        <div class="flex items-center p-3 border-b">
+                            <img class="pl-3" src="images/1st.png" alt="">
+                            <h4 class="pl-4">Fortnite</h4>
+                        </div>
+                        <div class="flex items-center p-3">
+                            <img class="pl-3" src="images/2nd.png" alt="">
+                            <h4 class="pl-4">Fortnite</h4>
+                        </div>
+                        <div class="flex items-center p-3">
+                            <img class="pl-3" src="images/3rd.png" alt="">
+                            <h4 class="pl-4">Fortnite</h4>
+                        </div>
+                        <div class="flex items-center p-3">
+                            <img class="pl-3" src="images/4th.png" alt="">
+                            <h4 class="pl-4">Fortnite</h4>
+                        </div>
+                        <div class="flex items-center p-3">
+                            <img class="pl-3" src="images/5th.png" alt="">
+                            <h4 class="pl-4">Fortnite</h4>
+                        </div>
+                        <div class="flex items-center p-3">
+                            <img class="pl-3" src="images/6th.png" alt="">
+                            <h4 class="pl-4">Fortnite</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white flex justify-between items-center mt-12">
+                <h3 class="font-semibold text-xl">Games On Sale</h3>
+                <div>
+                    <i id="slider-arrow-left"
+                        class="fas fa-arrow-alt-circle-left deals-scroll-left cursor-pointer text-xl"></i>
+                    <i id="slider-arrow-right"
+                        class="fas fa-arrow-alt-circle-right deals-scroll-right cursor-pointer text-xl ml-3"></i>
+                </div>
+            </div>
+            <div class="text-white truncate">
+                <div class="my-8 va-carrousel-flexbox" id="slider-head">
+                    <div class=" ml-7 inline-block slider">
+                        <img src="images/recomand-1.png" class="w-full" alt="">
+                        <div class="mt-4">
+                            <h4 class="font-semibold">Valheim</h4>
+                            <p class="font-light">Action Games</p>
+                            <span class="font-semibold">$8.15</span>
+                        </div>
+                    </div>
+                    <div class=" ml-7 inline-block slider">
+                        <img src="images/recomand-2.png" class="w-full" alt="">
+                        <div class="mt-4">
+                            <h4 class="font-semibold">BIOSHOCK: THE COLLEC...</h4>
+                            <p class="font-light"> Action, RPG</p>
+                            <div class="font-semibold"><span
+                                    class="text-xs p-1 rounded bg-discount text-txtColor">-80%</span><s
+                                    class="p-2 text-discountLine">$50</s> <span class="p-2">$8.67</span></div>
+                        </div>
+                    </div>
+                    <div class=" ml-7 inline-block slider">
+                        <img src="images/recomand-3.png" class="w-full" alt="">
+                        <div class="mt-4">
+                            <h4 class="font-semibold">Unravel Two</h4>
+                            <p class="font-light">Adventure Games</p>
+                            <span class="font-semibold">$20.38</span>
+                        </div>
+                    </div>
+                    <div class=" ml-7 inline-block slider">
+                        <img src="images/recomand-4.png" class="w-full" alt="">
+                        <div class="mt-4">
+                            <h4 class="font-semibold">Tick Tock: A Tale for Two</h4>
+                            <p class="font-light">Indie Games</p>
+                            <div class="font-semibold"><span
+                                    class="text-xs p-1 rounded bg-discount text-txtColor">-60%</span><s
+                                    class="p-2 text-discountLine">$3.47</s> <span class="p-2">$1.39</span></div>
+                        </div>
+                    </div>
+                    <div class=" ml-7 inline-block slider">
+                        <img src="images/recomand-5.png" class="w-full" alt="">
+                        <div class="mt-4">
+                            <h4 class="font-semibold">HITMAN 3</h4>
+                            <p class="font-light">Action Games</p>
+                            <span class="font-semibold">$23.99</span>
+                        </div>
+                    </div>
+                    <div class=" ml-7 inline-block slider">
+                        <img src="images/recomand-2.png" class="w-full" alt="">
+                        <div class="mt-4">
+                            <h4 class="font-semibold">BIOSHOCK: THE COLLEC...</h4>
+                            <p class="font-light"> Action, RPG</p>
+                            <div class="font-semibold"><span
+                                    class="text-xs p-1 rounded bg-discount text-txtColor">-80%</span><s
+                                    class="p-2 text-discountLine">$50</s> <span class="p-2">$8.67</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
